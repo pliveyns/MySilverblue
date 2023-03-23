@@ -7,7 +7,7 @@ on:
       - "**.md"
       - "**.txt"
   schedule:
-    - cron: "20 20 * * *" # 8:20pm everyday
+    - cron: "08 20 * * *" # 8:20am everyday
   push:
     branches:
       - main
@@ -17,7 +17,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_BASE_NAME: startingpoint
+  IMAGE_BASE_NAME: mysilverblue
   IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        image_name: [startingpoint]
+        image_name: [mysilverblue]
         major_version: [37]
         include:
           - major_version: 37

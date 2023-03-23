@@ -1,11 +1,14 @@
 rpms:
   - zenity
+  - alacritty
+  - python3-psutil
+  - bridge-utils
+  - vagrant-libvirt
+  - virt-install
+  - virt-manager
 flatpaks:
   - org.mozilla.firefox
-  - org.mozilla.Thunderbird
   - com.mattjakeman.ExtensionManager
   - org.libreoffice.LibreOffice
-  - org.gnome.DejaDup
   - org.gustavoperedo.FontDownloader
   - com.github.tchx84.Flatseal
-  - io.github.celluloid_player.Celluloid
