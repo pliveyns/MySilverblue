@@ -6,6 +6,8 @@ rpms:
   - vagrant-libvirt
   - virt-install
   - virt-manager
+  - edk2-ovmf
+  - swtpm
 flatpaks:
   - org.mozilla.firefox
   - com.mattjakeman.ExtensionManager
