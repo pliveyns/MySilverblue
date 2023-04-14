@@ -2,6 +2,10 @@
 
 [![MySilverblue](https://github.com/pliveyns/MySilverblue/actions/workflows/build.yml/badge.svg)](https://github.com/pliveyns/MySilverblue/actions/workflows/build.yml)
 
+**Warning**
+This repo is deprecated and will be archived in the near future.
+This is replaced by pliveyns/myublue; based on the refactored ublue-os/startingpoint.
+
 My own customized Ostree Native Container image based on ublue-os/startingpoint.
 
 ## What is this?
